@@ -1,9 +1,9 @@
 let basePreguntas = [
   {
-    pregunta: "¿Donde puedes encontrar estas casas sobre los canales?",
+    pregunta: "¿Dónde puedes encontrar estas casas sobre los canales?",
     imagen: "img/amsterdam.jpeg",
     url: "https://www.iamsterdam.com/es",
-    respuesta: "Amsterdam",
+    respuesta: "Ámsterdam",
     distractores: ["Venecia", "Bruselas"],
   },
   {
@@ -14,18 +14,18 @@ let basePreguntas = [
     distractores: ["Suiza", "Nepal"],
   },
   {
-    pregunta: "La patagonia esta en...",
+    pregunta: "La Patagonia está en...",
     imagen: "img/argentina.jpeg",
     url: "https://patagonia.gob.ar/",
     respuesta: "Argentina y Chile",
     distractores: ["Argentina y Brasil", "Brasil y Uruguay"],
   },
   {
-    pregunta: "¿En que país se te puede cruzar este animal?",
+    pregunta: "¿En qué país se te puede cruzar este animal?",
     imagen: "img/australia.jpeg",
     url: "https://www.australia.com/en",
     respuesta: "Australia",
-    distractores: ["Tazmania", "Nueva Guinea"],
+    distractores: ["India", "Nueva Guinea"],
   },
   {
     pregunta: "¿A que ciudad pertenece esta obra inacabada?",
@@ -41,7 +41,7 @@ let basePreguntas = [
     respuesta: "Berlín",
     distractores: ["Bruselas", "Madrid"],
   },{
-    pregunta: "Angkor Wat esta en...",
+    pregunta: "Angkor Wat está en...",
     imagen: "img/camboya.jpeg",
     url:"https://www.tourismcambodia.com/",
     respuesta: "Camboya",
@@ -57,9 +57,9 @@ let basePreguntas = [
     imagen: "img/egipto.jpeg",
     url: "https://egypt.travel/",
     respuesta: "Egipto",
-    distractores: ["Etiopia","Tunez"],
+    distractores: ["Etiopia","Túnez"],
   },,{
-    pregunta: "Este palacio esta en...",
+    pregunta: "Este palacio está en...",
     imagen: "img/granada.jpeg",
     url: "https://www.turgranada.es/",
     respuesta: "Granada",
@@ -71,23 +71,23 @@ let basePreguntas = [
     respuesta: "Grecia",
     distractores: ["Italia","Turquía"],
   },,{
-    pregunta: "¿En que país puedes visitar el Taj Mahal?",
+    pregunta: "¿En qué país puedes visitar el Taj Mahal?",
     imagen: "img/india.jpeg",
     url: "https://tourism.gov.in/",
     respuesta: "India",
     distractores: ["Nepal","Sri Lanka"],
   },,{
-    pregunta: "Es un país aISLAdo...",
+    pregunta: "Es un país isla...",
     imagen: "img/islandia.jpeg",
     url: "https://es.visiticeland.com/",
     respuesta: "Islandia",
-    distractores: ["Andorra","Cuba"],
+    distractores: ["japón","Cuba"],
   },,{
-    pregunta: "Esta ciudad esta en dos continentes:",
+    pregunta: "Esta ciudad está en dos continentes:",
     imagen: "img/istambul.jpeg",
     url: "https://visit.istanbul/en/",
     respuesta: "Estambul",
-    distractores: ["Tijuana","Tanger"],
+    distractores: ["Casablanca","El Cairo"],
   },,{
     pregunta: "Estos arcos son típicos de...",
     imagen: "img/japon.jpeg",
@@ -107,7 +107,7 @@ let basePreguntas = [
     respuesta: "Marruecos",
     distractores: ["España","Argelia"],
   },,{
-    pregunta: "¿Donde se encuentran las segundas pirámides más conocidas?",
+    pregunta: "¿Dónde se encuentran las segundas pirámides más conocidas?",
     imagen: "img/mexico.jpeg",
     url: "https://www.visitmexico.com/",
     respuesta: "México",
@@ -125,7 +125,7 @@ let basePreguntas = [
     respuesta: "Nueva York",
     distractores: ["Boston","L.A."],
   },,{
-    pregunta: "Le llaman la Scotland del hemisferio sur.",
+    pregunta: "Le llaman la Escocia del hemisferio sur.",
     imagen: "img/NZ.jpeg",
     url: "https://www.newzealand.com/int/",
     respuesta: "Nueva Zelanda",
@@ -137,13 +137,13 @@ let basePreguntas = [
     respuesta: "París",
     distractores: ["Berlín","Bruselas"],
   },,{
-    pregunta: "Esta ciudad del imeperio Inca esta en...",
+    pregunta: "Esta ciudad del imperio Inca está en...",
     imagen: "img/peru.jpeg",
     url: "https://www.peru.travel/pe",
     respuesta: "Perú",
     distractores: ["Colombia","Chile"],
   },,{
-    pregunta: "¿Que país debes visitar para dar con Petra?",
+    pregunta: "¿Qué país debes visitar para dar con Petra?",
     imagen: "img/petra.jpeg",
     url: "http://international.visitjordan.com/",
     respuesta: "Jordania",
@@ -158,7 +158,7 @@ let basePreguntas = [
     pregunta: "Adivina Skyline:",
     imagen: "img/rio.jpeg",
     url: "http://visitbrasil.com/en/",
-    respuesta: "Rio de Janeiro",
+    respuesta: "Río de Janeiro",
     distractores: ["Lima","Sao Paulo"],
   },,{
     pregunta: "Ciudad con mucha historia...",
@@ -173,10 +173,10 @@ let basePreguntas = [
     respuesta: "Scotland",
     distractores: ["Wales","Wisconsin"],
   },,{
-    pregunta: "Puede ser la ópera más famosa y esta en...",
+    pregunta: "Puede ser la ópera más famosa y está en...",
     imagen: "img/sidney.jpeg",
     url: "https://www.australia.com/en",
-    respuesta: "Sidney",
+    respuesta: "Sídney",
     distractores: ["Melbourne","Viena"],
   },,{
     pregunta: "Heidi...",
@@ -191,7 +191,7 @@ let basePreguntas = [
     respuesta: "Islas Canarias",
     distractores: ["Cabo Verde","Madagascar"],
   },,{
-    pregunta: "Los longtails estan en todas las playas de...",
+    pregunta: "Los longtails están en todas las playas de...",
     imagen: "img/thai.jpeg",
     url: "",
     respuesta: "Tailandia",
@@ -207,7 +207,7 @@ let basePreguntas = [
     imagen: "img/venecia.jpeg",
     url: "https://www.visitvenezia.eu/en",
     respuesta: "Venecia",
-    distractores: ["Amsterdam","Atenas"],
+    distractores: ["Ámsterdam","Atenas"],
   },,{
     pregunta: "Los balcones de arroz o te en...",
     imagen: "img/vietnam.jpeg",
