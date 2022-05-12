@@ -1,8 +1,19 @@
-* {
+  * {
     transition: all 0.40s;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Courier New', Courier, monospace;
   }
-  
+  .back{
+    background-image: url("img/pexels-porapak-apichodilok-346696.jpeg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 30%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+  } 
+  .btn{
+    color: black;
+  }
   body {
     margin: 1rem;
     padding: 1rem;
@@ -18,20 +29,17 @@
   }
 
   .titulo{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size: xx-large;
   }
 
   .tit{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    font-size: 5em;
-    text-shadow: 0.1em 0.1em 0.2em rgb(178, 176, 47)
-  }
+    font-size: 4em;
+    text-shadow: 3px 3px 3px rgb(194, 113, 197);
+    }
   
   .titulo2{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size: large;
   }
@@ -45,6 +53,21 @@
     text-align: center;
     flex-direction: column;
     background: rgb(67, 182, 105);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    font-size: xx-large;
+  }
+
+  #encabezado2 {
+    width: 70vw;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
