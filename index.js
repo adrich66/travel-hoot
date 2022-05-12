@@ -19,8 +19,8 @@ function cargarPregunta(index) {
  
   document.getElementById("imagen").src = objetoPregunta.imagen;
   
-
-  document.getElementById("info").href = objetoPregunta.url;
+  var element = document.getElementById("enlace");
+  element.href = objetoPregunta.url;
 
   document.getElementById("opcion-1").innerHTML = opciones[0];
   document.getElementById("opcion-2").innerHTML = opciones[1];
